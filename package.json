@@ -1,5 +1,5 @@
 {
-  "name": "Webpack-Template",
+  "name": "Leaderboard",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
@@ -12,16 +12,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShadyShawkat/Webpack-Template.git"
+    "url": "git+https://github.com/ShadyShawkat/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShadyShawkat/Webpack-Template/issues"
+    "url": "https://github.com/ShadyShawkat/Leaderboard/issues"
   },
-  "homepage": "https://github.com/ShadyShawkat/Webpack-Template#readme",
+  "homepage": "https://github.com/ShadyShawkat/Leaderboard#readme",
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "css-loader": "^6.5.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
