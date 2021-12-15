@@ -17,24 +17,19 @@
                 <div class="scores col-5">
                     <div class="scores__heading d-flex align-items-center">
                         <h2 class="me-3">Recent scores</h2>
-                        <button type="button" class="custom-btn ms-auto px-2 py-1">Refresh</button>
+                        <button type="button" id="refresh-btn" class="custom-btn ms-auto px-2 py-1">Refresh</button>
                     </div>
                     <div class="scores__table pt-4">
-                        <ul>
-                            <li>Name: 200</li>
-                            <li>Name: 10</li>
-                            <li>Name: 41</li>
-                            <li>Name: 451</li>
-                            <li>Name: 55</li>
+                        <ul class="d-none">
                         </ul>
                     </div>
                 </div>
                 <div class="form-container col-4">
                     <h2 class="form-container__heading text-center">Add your score</h2>
                     <form class="d-flex flex-column gap-3 pt-4">
-                        <input type="text" placeholder="Your name" class="form-control border-2">
-                        <input type="number" placeholder="Your score" min="0" class="form-control border-2">
-                        <button type="button" class="custom-btn px-2 align-self-end py-1">Submit</button>
+                        <input name="name" type="text" placeholder="Your name" class="form-control border-2" required>
+                        <input name="score" type="number" placeholder="Your score" min="0" class="form-control border-2" required>
+                        <button type="submit" id="add-score-btn" class="custom-btn px-2 align-self-end py-1">Submit</button>
                     </form>
                 </div>
             </div>
