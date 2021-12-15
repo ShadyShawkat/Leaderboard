@@ -2,21 +2,20 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> The leaderboard project calls an API through fetch and callback functions.
 
 ![screenshot](./src/images/app_screenshot.png)
-
-Additional description about the project and its features.
 
 ## Built With
 
 - Webpacks
-- 
-- 
+- HTML & CSS
+- JavaScript
+- Bootstrap 5
 
 ## Live Demo
 
-[Live Demo Link](https://shadyshawkat.github.io/{project-name}/dist)
+[Live Demo Link](https://shadyshawkat.github.io/Leaderboard/dist)
 
 
 ## Getting Started
@@ -27,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 2- In the drop down menu choose "Download Zip" or clone it using git using the following command.
 ~~~bash
-$ git clone git@github.com:ShadyShawkat/{project-name}.git
+$ git clone git@github.com:ShadyShawkat/Leaderboard.git
 ~~~
 3- After extracting the files, you'll have my project on your local machine.
 
@@ -35,19 +34,6 @@ $ git clone git@github.com:ShadyShawkat/{project-name}.git
 ~~~bash
 $ npm i
 ~~~
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
 
 
 ## Authors
@@ -57,12 +43,6 @@ $ npm i
 - GitHub: [@shadyshawkat](https://github.com/ShadyShawkat)
 - Twitter: [@shadyshawkat](https://twitter.com/ShadyShawkat3)
 - LinkedIn: [shadyshawkat](https://www.linkedin.com/in/shady-shawkat/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
