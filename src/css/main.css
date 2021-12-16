@@ -1,0 +1,51 @@
+.custom-btn {
+  all: unset;
+  border: 2px solid black;
+  box-shadow: 6px 6px black;
+  font-weight: bold;
+  background-color: #fff8d170;
+}
+
+.custom-btn:hover {
+  box-shadow: 4px 4px black;
+}
+
+.custom-btn:active {
+  box-shadow: 2px 2px black;
+}
+
+.wrapper {
+  height: 100vh;
+  background-color: #fdf1ac94;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Handlee', cursive;
+  font-weight: 900;
+}
+
+.scores__table ul {
+  border: 3px solid black;
+}
+
+.scores__table ul li {
+  padding: 5px 0 5px 10px;
+}
+
+.scores__table ul li:last-child {
+  border-bottom: none;
+}
+
+.scores__table ul li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.scores__table ul li:nth-child(even) {
+  background-color: white;
+}
