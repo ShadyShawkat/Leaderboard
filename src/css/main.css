@@ -3,6 +3,7 @@
   border: 2px solid black;
   box-shadow: 6px 6px black;
   font-weight: bold;
+  background-color: #fff8d170;
 }
 
 .custom-btn:hover {
@@ -15,6 +16,7 @@
 
 .wrapper {
   height: 100vh;
+  background-color: #fdf1ac94;
 }
 
 h1 {
@@ -23,8 +25,13 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-family: 'Handlee', cursive;
+  font-weight: 900;
+}
+
 .scores__table ul {
-  border: 4px solid black;
+  border: 3px solid black;
 }
 
 .scores__table ul li {
@@ -37,4 +44,8 @@ h1 {
 
 .scores__table ul li:nth-child(odd) {
   background-color: lightgray;
+}
+
+.scores__table ul li:nth-child(even) {
+  background-color: white;
 }

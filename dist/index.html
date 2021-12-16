@@ -12,9 +12,9 @@
 <body>
     <div class="wrapper d-flex align-items-center">
         <div class="container">
-            <h1 class="mb-5">Leaderboard</h1>
-            <div class="main-content d-flex justify-content-around row">
-                <div class="scores col-5">
+            <h1 class="mb-5 text-center">Leaderboard</h1>
+            <div class="main-content d-flex justify-content-around row flex-column flex-lg-row align-items-center">
+                <div class="scores col-lg-5 col-8">
                     <div class="scores__heading d-flex align-items-center">
                         <h2 class="me-3">Recent scores</h2>
                         <button type="button" id="refresh-btn" class="custom-btn ms-auto px-2 py-1">Refresh</button>
@@ -24,7 +24,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="form-container col-4">
+                <div class="form-container col-lg-4 col-8 mt-5 mt-lg-0">
                     <h2 class="form-container__heading text-center">Add your score</h2>
                     <form class="d-flex flex-column gap-3 pt-4">
                         <input name="name" type="text" placeholder="Your name" class="form-control border-2" required>
